@@ -1,0 +1,12 @@
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Isso garante que o conteúdo ocupe toda a altura da tela */
+  }
+  
+  .centered-image {
+    max-width: 100%;  /* Isso garante que a imagem não ultrapasse a largura máxima da tela */
+    max-height: 100%; /* Isso garante que a imagem não ultrapasse a altura máxima da tela */
+  }
+  
