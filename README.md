@@ -1,31 +1,48 @@
-# Create React App
+# Página de Links - React.js, Node.js
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+![Imagem do Projeto](./src/assets/screenshot.png)
 
-## Deploy Your Own
+## Descrição
 
-Deploy your own Create React App project with Vercel.
+Este é um projeto de uma página de links estilo Linktree, desenvolvido utilizando React para o frontend e Node para o backend.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## Funcionalidades
 
-_Live Example: https://create-react-template.vercel.app/_
+- Adicione as funcionalidades principais do seu projeto aqui.
+- Explique como os usuários podem interagir com a sua página de links.
 
-## Available Scripts
+## Como Usar
 
-In the project directory, you can run:
+Siga os passos abaixo para rodar o projeto localmente:
 
-### `npm start`
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### (React)
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+1. Navegue até a pasta `frontend`.
+2. Execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar a aplicação React.
 
-### `npm test`
+Abra o navegador e visite [http://localhost:3000](http://localhost:3000) para visualizar a sua página de links.
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias Utilizadas
 
-### `npm run build`
+- React
+- Node
 
-Builds the app for production to the `build` folder.
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+## Pré-requisitos
+
+- Node.js instalado
+- npm ou yarn instalado
+
+## Contribuição
+
+1. Faça um fork do projeto.
+2. Crie uma branch para a sua feature (`git checkout -b feature/sua-feature`).
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/sua-feature`).
+5. Abra um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
