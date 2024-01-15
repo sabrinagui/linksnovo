@@ -1,0 +1,9 @@
+/* footer.css */
+
+.footer-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

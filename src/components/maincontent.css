@@ -1,12 +1,20 @@
+/* maincontent.css */
 .main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;  /* Isso garante que o conteúdo ocupe toda a altura da tela */
-  }
-  
-  .centered-image {
-    max-width: 100%;  /* Isso garante que a imagem não ultrapasse a largura máxima da tela */
-    max-height: 100%; /* Isso garante que a imagem não ultrapasse a altura máxima da tela */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;  /* Isso garante que o conteúdo ocupe toda a altura da tela */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Isso centralizará os elementos na vertical */
+  max-width: 100%;  /* Isso garante que a imagem não ultrapasse a largura máxima da tela */
+  max-height: 100%;
+  padding-top: 30px;
+}
+
+
+
+

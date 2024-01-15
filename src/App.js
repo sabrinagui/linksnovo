@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import MainContent from './src/components/MainContent';
+import Buttons from './components/Buttons.js';
+import MainContent from './components/MainContent.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
-    
-    <MainContent />
+    <div>
+      <MainContent />
+     <Buttons />
+     <Footer />
+    </div>
   );
 }
 

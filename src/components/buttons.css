@@ -1,0 +1,36 @@
+/* buttons.css */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500&family=Fraunces:opsz@9..144&family=Jacques+Francois&family=Poppins&display=swap');
+
+
+.container-botoes {
+    display: flex;
+    flex-direction: column; /* Empilha os botões verticalmente */
+    align-items: center; /* Centraliza horizontalmente os itens */
+    margin-top: 80px;
+    margin-bottom: 35px;
+  }
+  
+  .botao {
+    background-color:#591470;
+    color: white;
+    box-shadow: none;
+    border-radius: 15px;
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    margin: 5px; /* Adiciona espaçamento entre os botões */
+    cursor: pointer; /* Altera o cursor para uma mãozinha ao passar o mouse sobre o botão */
+    width: 350px;
+    height: 50px;
+    border: #51005C;
+    font-family: 'Fraunces', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  /* Estilo de hover para destacar visualmente quando o mouse passa sobre o botão */
+  .botao:hover {
+    background-color: #51005C; /* Pode ajustar a cor de hover conforme necessário */
+  }
+  
+  .icon {
+    margin-right: 20px;
+  }
